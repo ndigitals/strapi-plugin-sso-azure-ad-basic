@@ -1,5 +1,5 @@
 {
-  "name": "strapi-plugin-sso-azure-ad-basic",
+  "name": "@ndigitals/strapi-plugin-sso-azure-ad-basic",
   "version": "1.1.1",
   "description": "Basic plugin for testing sso using azure active directory",
   "keywords": [
