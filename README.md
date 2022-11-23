@@ -1,6 +1,6 @@
 # Strapi plugin sso-azure-ad-basic
 
-[![NPM version](https://badge.fury.io/js/%40ndigitals%2Fstrapi-plugin-sso-azure-ad-basic.svg)](https://badge.fury.io/js/%40ndigitals%2Fstrapi-plugin-sso-azure-ad-basic)
+[![NPM version](https://badge.fury.io/js/@ndigitals%2Fstrapi-plugin-sso-azure-ad-basic.svg)](https://badge.fury.io/js/@ndigitals%2Fstrapi-plugin-sso-azure-ad-basic)
 [![Build Status](https://github.com/ndigitals/strapi-plugin-sso-azure-ad-basic/actions/workflows/release.yml/badge.svg)](https://github.com/ndigitals/strapi-plugin-sso-azure-ad-basic/actions/workflows/release.yml)
 [![NPM Downloads](https://img.shields.io/npm/dm/@ndigitals/strapi-plugin-sso-azure-ad-basic)](https://www.npmjs.com/package/@ndigitals/strapi-plugin-sso-azure-ad-basic)
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
@@ -42,20 +42,20 @@ Inside plugin strapi-files copy `admin` to `admin/` project root directory and c
 
 ### Setup up environment variables
 
-Create .env if not yet available on the project root directory
+Create `.env` if not yet available on the project root directory
 
 Add the following variables:
 
-```
+```env
 AZURE_AD_ROLE_MAPPING=[{"azureRole":"Application Administrator","strapiRole":"Super Admin"},{"azureRole":"Application Developer","strapiRole":"Technologist"}]
 AZURE_AD_ROLE_MAPPING_API_USERS=[{"azureRole":"Application Administrator","strapiRole":"Authenticated"}]
 AZURE_AD_CLIENT_ID=57e34ea2-2dae-4445-b7dc-5320cdfc969c
 AZURE_AD_REDIRECT_URL=http://localhost:8000/admin/auth/login
 ```
 
-~~Note that `AZURE_AD_ROLE_MAPPING` and `AZURE_AD_ROLE_MAPPING_API_USERS` is a string representation of an array of objects~~
+*Note that `AZURE_AD_ROLE_MAPPING` and `AZURE_AD_ROLE_MAPPING_API_USERS` is a string representation of an array of objects*
 
-~~It is required that you map your Strapi roles to the corresponding role from Azure AD.~~
+*It is required that you map your Strapi roles to the corresponding role from Azure AD.*
 
 ### Copy hooks file and folder
 
