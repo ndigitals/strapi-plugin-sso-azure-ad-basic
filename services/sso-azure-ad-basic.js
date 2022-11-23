@@ -171,8 +171,8 @@ azureService.verifyTokenAzureActiveDirectory = async (ctx) => {
 /**
 * Handle API users login using Azure identity token
 * The token will be passed by the frontend
-* @param {*} ctx 
-* @returns 
+* @param {*} ctx
+* @returns
 */
 azureService.verifyTokenAPIUser = async (ctx) => {
   const { azureToken } = ctx.request.body;
