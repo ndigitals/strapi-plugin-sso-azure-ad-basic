@@ -1,0 +1,13 @@
+.git
+.github
+node_modules
+tmp
+doc
+docs
+.editorconfig
+.eslintignore
+.gitattributes
+.gitignore
+.jshintrc
+.npmrc
+.travis.yml
