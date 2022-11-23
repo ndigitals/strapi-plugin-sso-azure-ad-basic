@@ -5,8 +5,6 @@
 [![NPM Downloads](https://img.shields.io/npm/dm/@ndigitals/strapi-plugin-sso-azure-ad-basic)](https://www.npmjs.com/package/@ndigitals/strapi-plugin-sso-azure-ad-basic)
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
-Check the state of repository.
-
 > This is an updated fork of the [original Strapi plugin](https://www.npmjs.com/package/strapi-plugin-sso-azure-ad-basic).
 
 This is a basic plugin using Azure Active Directory identity for Single Sign On (SSO).
