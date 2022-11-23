@@ -2,31 +2,58 @@
   "name": "strapi-plugin-sso-azure-ad-basic",
   "version": "1.0.4",
   "description": "Basic plugin for testing sso using azure active directory",
+  "keywords": [
+    "strapi-plugin",
+    "strapi",
+    "azure",
+    "sso"
+  ],
   "strapi": {
     "name": "sso-azure-ad-basic",
     "icon": "plug",
     "description": "Basic plugin for testing sso using azure active directory"
+  },
+  "homepage": "https://github.com/ndigitals/strapi-plugin-sso-azure-ad-basic",
+  "author": "leonelllagumbay (https://github.com/leonelllagumbay)",
+  "contributors": [
+    "leonelllagumbay (https://github.com/leonelllagumbay)",
+    "Tim Nolte <tim.nolte@ndigitals.com> (https://www.ndigitals.com)"
+  ],
+  "maintainers": [
+    "Tim Nolte <tim.nolte@ndigitals.com> (https://www.ndigitals.com)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ndigitals/strapi-plugin-sso-azure-ad-basic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ndigitals/strapi-plugin-sso-azure-ad-basic/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "engines": {
+    "node": ">=10.16.0 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "=>3.6.0"
   },
   "dependencies": {
     "@azure/msal-browser": "^2.16.0",
     "@azure/msal-node": "^1.3.0",
     "@azure/msal-react": "^1.0.1"
   },
-  "author": {
-    "name": "A Strapi developer",
-    "email": "",
-    "url": ""
+  "devDependencies": {
+    "editorconfig-checker": "^4.0.2",
+    "jshint": "^2.13.6"
   },
-  "maintainers": [
-    {
-      "name": "A Strapi developer",
-      "email": "",
-      "url": ""
-    }
-  ],
-  "engines": {
-    "node": ">=10.16.0 <=14.x.x",
-    "npm": ">=6.0.0"
-  },
-  "license": "MIT"
+  "scripts": {
+    "analyze": "jshint",
+    "lint": "editorconfig-checker"
+  }
 }
